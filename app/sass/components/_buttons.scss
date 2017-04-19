@@ -15,3 +15,7 @@
 		background-color: $secondary_font_color;
 	}
 }
+.question-btn {
+	background-color: $secondary_font_color;
+		&:hover, &:focus {background-color: $accent_color;}
+}

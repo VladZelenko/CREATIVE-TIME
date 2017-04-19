@@ -8631,6 +8631,16 @@ button.close {
     color: #1378cc;
     font: 400 69px "Helvetica Neue", sans-serif; }
 
+.question {
+  padding: 105px 0 95px 0;
+  color: #ffffff;
+  background-image: -webkit-linear-gradient(225deg, #07cacf 0%, #1f99b1 100%);
+  background-image: linear-gradient(225deg, #07cacf 0%, #1f99b1 100%); }
+  .question h2.title {
+    font: 300 63px "Helvetica Neue", sans-serif; }
+  .question .description {
+    font: 300 35px "Helvetica Neue", sans-serif; }
+
 .primary-btn {
   margin: 20px 20px;
   display: block;
@@ -8648,6 +8658,11 @@ button.close {
     transition: all .4s ease-in-out .1s;
     color: #363c4e;
     background-color: #ffffff; }
+
+.question-btn {
+  background-color: #ffffff; }
+  .question-btn:hover, .question-btn:focus {
+    background-color: #fff200; }
 
 @media only screen and (max-width: 2880px) {
   .overlay {
