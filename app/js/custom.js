@@ -16,3 +16,10 @@ function closeNav(){
 // 	document.getElementById('nav').style.height = "0%";
 //	document.getElementById('open-btn-nav').style.opacity = "1";
 // }
+
+$('.carousel-1').slick({
+	infinite: true,
+	speed: 1000,
+	autoplay: true,
+	autoplaySpeed: 3000,
+});
