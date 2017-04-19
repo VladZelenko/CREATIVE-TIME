@@ -8617,7 +8617,7 @@ button.close {
 .services {
   padding-top: 125px;
   text-align: center;
-  color: #393c44; }
+  color: #363c4e; }
   .services h3.title {
     margin: 70px 0 35px 0;
     font: 300 34px "Helvetica Neue", sans-serif; }
@@ -8640,6 +8640,27 @@ button.close {
     font: 300 63px "Helvetica Neue", sans-serif; }
   .question .description {
     font: 300 35px "Helvetica Neue", sans-serif; }
+
+.team {
+  width: 100%;
+  min-width: 800px;
+  padding: 155px 0 165px 0;
+  color: #363c4e;
+  text-align: center; }
+  .team .leute {
+    margin-right: 45px; }
+    .team .leute h2 {
+      font: 700 20px "Centrale Sans", sans-serif; }
+  .team .leute:last-child {
+    margin-right: 0; }
+  .team span.position {
+    color: #f44336;
+    font: 700 20px "Centrale Sans", sans-serif; }
+  .team h2.title {
+    margin-bottom: 85px;
+    font: 700 56px "Helvetica Neue", sans-serif;
+    text-transform: uppercase;
+    text-align: left; }
 
 .primary-btn {
   margin: 20px 20px;

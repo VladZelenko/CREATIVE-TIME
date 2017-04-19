@@ -1,0 +1,22 @@
+.team {
+	width: 100%;
+	min-width: 800px;
+	padding: 155px 0 165px 0;
+	color: $primary_font_color;
+	text-align: center;
+	.leute {
+		margin-right: 45px;
+		h2 {font: 700 20px $centrale_sans;}
+	}
+	.leute:last-child {margin-right: 0;}
+	span.position {
+		color: #f44336;
+		font: 700 20px $centrale_sans;
+	}
+	h2.title {
+		margin-bottom: 85px;
+		font: 700 56px $helvetica_neue;
+		text-transform: uppercase;
+		text-align: left;
+	}
+}
