@@ -8675,6 +8675,39 @@ button.close {
   .join-team .description {
     font: 300 35px "Helvetica Neue", sans-serif; }
 
+.footer {
+  padding: 195px 0 105px 0;
+  width: 100%;
+  min-height: 635px;
+  background: url("../../img/footer-gradient-effect.png");
+  background-size: cover; }
+  .footer h2.title {
+    margin-bottom: 35px;
+    color: #ffffff;
+    font: 700 28px "Helvetica Neue", sans-serif;
+    text-transform: uppercase; }
+  .footer li {
+    margin-bottom: 25px; }
+    .footer li a {
+      color: #b5b1b1;
+      font: 300 22px "Helvetica Neue", sans-serif; }
+      .footer li a:hover {
+        text-decoration: none; }
+    .footer li .infobox a {
+      display: block;
+      float: left; }
+    .footer li .footer-btn {
+      color: #000000; }
+  .footer .copyright {
+    color: #b5b1b1;
+    font: 300 22px "Helvetica Neue", sans-serif; }
+  .footer .made {
+    display: block;
+    margin-top: 70px;
+    color: #b5b1b1;
+    font: 400 28px "Centrale Sans", sans-serif;
+    text-align: center; }
+
 .primary-btn {
   margin: 20px 20px;
   display: block;
@@ -8697,6 +8730,17 @@ button.close {
   background-color: #ffffff; }
   .question-btn:hover, .question-btn:focus {
     background-color: #fff200; }
+
+.footer-btn {
+  display: block;
+  width: 140px;
+  font: 700 18px/40px "Helvetica Neue", sans-serif;
+  -webkit-border-radius: 40px;
+          border-radius: 40px;
+  background: #fff200;
+  text-align: center; }
+  .footer-btn:hover, .footer-btn:focus {
+    text-decoration: none; }
 
 @media only screen and (max-width: 2880px) {
   .overlay {

@@ -19,3 +19,12 @@
 	background-color: $secondary_font_color;
 		&:hover, &:focus {background-color: $accent_color;}
 }
+.footer-btn {
+	display: block;
+	width: 140px;
+	font: 700 18px/40px $helvetica_neue;
+	border-radius: 40px;
+	background: $accent_color;
+	text-align: center;
+	&:hover, &:focus {text-decoration: none;}
+}

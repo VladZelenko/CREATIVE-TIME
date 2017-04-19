@@ -1,0 +1,36 @@
+.footer {
+	padding: 195px 0 105px 0;
+	width: 100%;
+	min-height: 635px;
+	background: url('../../img/footer-gradient-effect.png');
+	background-size: cover;
+	h2.title {
+		margin-bottom: 35px;
+		color: $secondary_font_color;
+		font: 700 28px $helvetica_neue;
+		text-transform: uppercase;
+	}
+	li {
+		margin-bottom: 25px;
+		a {
+			color: #b5b1b1;
+			font: 300 22px $helvetica_neue;
+			&:hover {text-decoration: none;}
+		}
+		.infobox {
+			a {display: block; float: left;}
+		}
+		.footer-btn {color: #000000;}
+	}
+	.copyright {
+		color: #b5b1b1;
+		font: 300 22px $helvetica_neue;
+	}
+	.made {
+		display: block;
+		margin-top: 70px;
+		color: #b5b1b1;
+		font: 400 28px $centrale_sans;
+		text-align: center;
+	}
+}
