@@ -1,0 +1,13 @@
+.join-team{
+	padding: 100px 0 95px 0;
+	width: 100%;
+	min-height: 305px;
+	color: $secondary_font_color;
+	background: url('../../img/color-effect.png') center center;
+	background-size: cover;
+	h2.title {
+		font: 700 69px $helvetica_neue;
+		text-transform: uppercase;
+	}
+	.description {font: 300 35px $helvetica_neue;}
+}
