@@ -8531,7 +8531,7 @@ button.close {
 .intro {
   width: 100%;
   min-height: 1135px;
-  background: url("../../img/header-img.png");
+  background: url("../../img/header-img.png") center center;
   background-size: cover; }
 
 .close-btn {
@@ -8636,7 +8636,7 @@ button.close {
   .overlay {
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     width: 0%;
     height: 100%;
     background: rgba(0, 0, 0, 0.95);
@@ -8656,8 +8656,8 @@ button.close {
         transition: all .5s ease-in-out .1s; }
     .overlay .close-btn {
       position: absolute;
-      top: 50px;
-      right: 7px;
+      top: 5px;
+      left: 100px;
       font-size: 50px; }
   .overlay__content {
     -webkit-box-orient: vertical;
@@ -8679,14 +8679,11 @@ button.close {
     display: block;
     padding: 7px;
     width: 35px;
-    height: 30px;
-    border: 1px solid #ccc;
-    -webkit-border-radius: 5px;
-            border-radius: 5px; }
+    height: 30px; }
     #open-btn-nav .line {
       display: block;
       width: 20px;
       height: 3px;
-      background: #000; }
+      background: #fff; }
     #open-btn-nav .line:nth-child(2) {
       margin: 3px 0; } }

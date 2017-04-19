@@ -3,7 +3,7 @@
 	.overlay {
 		position: fixed;
 		top: 0;
-		right: 0;
+		left: 0;
 		width: 0%;
 		height: 100%;
 		background: rgba(0,0,0, .95);
@@ -24,8 +24,8 @@
 		//position close button
 		.close-btn {
 			position: absolute;
-			top: 50px;
-			right: 7px;
+			top: 5px;
+			left: 100px;
 			font-size: 50px;
 		}
 	}
@@ -44,13 +44,11 @@
 		padding: 7px;
 		width: 35px;
 		height: 30px;
-		border: 1px solid #ccc;
-		border-radius: 5px;
 		.line {
 			display: block;
 			width: 20px;
 			height: 3px;
-			background: #000;
+			background: #fff;
 		}
 		.line:nth-child(2) {margin: 3px 0;}
 	}
