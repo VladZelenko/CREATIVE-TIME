@@ -8614,6 +8614,19 @@ button.close {
         -ms-flex-flow: row wrap;
             flex-flow: row wrap; }
 
+.services {
+  padding-top: 125px;
+  text-align: center;
+  color: #393c44; }
+  .services h3.title {
+    margin: 70px 0 35px 0;
+    font: 300 34px "Helvetica Neue", sans-serif; }
+  .services p {
+    font: 400 22px "Helvetica Neue", sans-serif; }
+  .services span {
+    color: #d82028;
+    font-style: italic; }
+
 .primary-btn {
   margin: 20px 20px;
   display: block;
@@ -8657,7 +8670,7 @@ button.close {
     .overlay .close-btn {
       position: absolute;
       top: 5px;
-      left: 100px;
+      left: 7%;
       font-size: 50px; }
   .overlay__content {
     -webkit-box-orient: vertical;
@@ -8677,9 +8690,12 @@ button.close {
       padding: 10px 0; }
   #open-btn-nav {
     display: block;
-    padding: 7px;
-    width: 35px;
-    height: 30px; }
+    padding: 17px;
+    width: 55px;
+    height: 50px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); }
     #open-btn-nav .line {
       display: block;
       width: 20px;

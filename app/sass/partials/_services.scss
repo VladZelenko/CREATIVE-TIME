@@ -1,0 +1,14 @@
+.services {
+	padding-top: 125px;
+	text-align: center;
+	color: $additional_color;
+	h3.title {
+		margin: 70px 0 35px 0;
+		font: 300 34px $helvetica_neue;
+	}
+	p {font: 400 22px $helvetica_neue;}
+	span {
+		color: #d82028;
+		font-style: italic;
+	}
+}
